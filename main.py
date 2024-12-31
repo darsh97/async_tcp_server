@@ -8,7 +8,7 @@ from logger import logger
 Building non-blocking, asynchronous TCP server that handles multiple client connections simultaneously, 
 with a focus on understanding selectors and how Linux's epoll system improves performance.
 
-1) Non-blocking I/O:
+1) Non-blocking FD's:
     -> Non-blocking sockets allow the application to continue doing useful work (or serve other clients) while waiting for data or connections.
     -> Set the Socket's File Descriptor blocking flag to False to make it non-blocking.'
 
